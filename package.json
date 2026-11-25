@@ -1,0 +1,16 @@
+{
+  "name": "oneul-mwo-meokji",
+  "version": "1.0.0",
+  "description": "오늘 뭐 먹지? - AI 맞춤형 식단 추천 웹사이트",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
